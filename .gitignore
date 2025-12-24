@@ -1,0 +1,29 @@
+# --- [1] 핵심: 대용량 데이터 파일 (절대 올리면 안 됨) ---
+*.csv
+*.xlsx
+*.feather
+*.pkl
+*.joblib
+test/
+train/
+sample_submission.csv
+data/
+
+# --- [2] 파이썬 자동 생성 파일 (필요 없는 쓰레기) ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- [3] 주피터 노트북 체크포인트 (지저분함) ---
+.ipynb_checkpoints/
+
+# --- [4] 가상환경 폴더 (컴퓨터마다 달라서 올리면 안 됨) ---
+.venv/
+venv/
+env/
+
+# --- [5] 운영체제/에디터 잡동사니 ---
+.DS_Store
+Thumbs.db
+.vscode/
